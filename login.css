@@ -6,7 +6,7 @@
 }
 
 .bg-img {
-    background: url("https://i.pinimg.com/originals/c1/50/2f/c1502fa495b4be5c7897b6df59dbed91.gif");
+    background: url("https://i.pinimg.com/originals/70/55/c9/7055c99bad359a99e95a9a0bf4849a77.gif");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(255, 255, 255, 0.174);
+    background: rgba(231, 3, 3, 0.174);
 }
 
 .content {
@@ -86,7 +86,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.pass-key:valid ~ .show {
+.senha:valid ~ .show {
      display: block;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .pass a {
-    color: white;
+    color: rgba(36, 128,  9);
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
@@ -106,8 +106,8 @@
 }
 
 .field input[type="submit"] {
-    background: #682efc;
-    border: 1px solid #7741fd;
+    background: rgb(7, 122, 42);
+    border: 1px solid #34495e;
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
@@ -118,7 +118,7 @@
 }
 
 .field input[type="submit"]:hover {
-    background: #4a0de4f5;
+    background: rgb(7, 99, 76);
 }
 
 .login {
