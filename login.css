@@ -46,7 +46,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.field {
+.campo {
     position: relative;
     height: 45px;
     width: 100%;
@@ -54,13 +54,13 @@
     background: rgba(255, 255, 255, 0.94);
 }
 
-.field span {
+.campo span {
     color: #222;
     width: 40px;
     line-height: 45px;
 }
 
-.field input {
+.campo input {
     height: 100%;
     width: 100%;
     background: transparent;
@@ -71,7 +71,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.space {
+.b {
     margin-top: 16px;
 }
 
@@ -90,22 +90,22 @@
      display: block;
 }
 
-.pass {
+.esquecSenha {
     text-align: left;
     margin: 10px 0;
 }
 
-.pass a {
+.esquecSenha a {
     color: rgba(36, 128,  9);
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
 
-.pass:hover a {
+.esquecSenha:hover a {
     text-decoration: underline;
 }
 
-.field input[type="submit"] {
+button {
     background: rgb(7, 122, 42);
     border: 1px solid #34495e;
     color: white;
@@ -115,9 +115,11 @@
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     transition: .3s ease;
+    width: 300px;
+    height: 45px;
 }
 
-.field input[type="submit"]:hover {
+button:hover {
     background: rgb(7, 99, 76);
 }
 
