@@ -1,164 +1,101 @@
-body {
-    background-color: #073d2d;
-}
+
 #navbar {
-    background-image: linear-gradient(260deg, #073d2d 0%, #61d4a8 100%);
+    background-image: linear-gradient(260deg, orange 0%, orange 100%);
     overflow: hidden;
     position: relative;
-    margin-top: -20px;
+    margin-top: 65px;
     margin-left: -10px;
-    margin-right: -5px;
+    margin-right: -8px;
     border: 0;
-    padding: 70px;
+    padding: 90px;
 
 }
 
+#navbar button {
+    margin-left: 70px;
+    margin-right: 5px;
+    height: 40px;
+    width: 280px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    line-height: 30px;
+}
+
+#navbar img {
+    width: 200px;
+    height: 200px;
+    margin-left: 960px;
+    margin-top: -400px;
+}
 
 nav{
     overflow: hidden;
-    position: sticky;
-    top: 0;
+    position: fixed;
+     top: 0;
     margin-left: -10px;
     margin: 270px auto 15;
-    width: 1350px;
-    height: 55px;
-    background: #34495e;
+    width: 1370px;
+    height: 65px;
     font-size: 0;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    background-color: antiquewhite;
 }
+
+nav #quiz {
+    color: rgb(238, 144, 20);
+    font-weight: bold;
+    text-shadow: 10px;
+    font-family: monospace;
+}
+
+nav #inicio {
+    margin-left: 400px;
+    margin-top: 2px;
+}
+
+nav #entrar {
+    margin-left: 20px;
+    margin-right: -20px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    color: white;
+    background-color: orange;
+    margin-bottom: 80px;
+}
+
+nav #criaconta {
+    margin-left: 100px;
+    margin-right: -5px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    line-height: 30px;
+}
+
 nav a{
     font-size: 15px;
-    font-weight: bold;
     text-transform: uppercase;
     color: rgb(15, 15, 15);
     text-decoration: none;
-    line-height: 50px;
     position: relative;
-    z-index: 1;
     display: inline-block;
-    text-align: center;
-    margin-left: 10px;
-}
-nav .animation{
-    position: absolute;
-    height: 100%;
-    height: 500px;
-    top: 0;
-    bottom: 0px;
-    z-index: 0;
-    background: rgb(11, 150, 103);
-    border-radius: 8px;
-    transition: all .5s ease 0s;
-}
-nav a:nth-child(1){
-    width: 100px;
-}
-nav .star-home, a :nth-child(1):hover~.animation{
-    width: 110px;
-    left: 0;
-}
-nav a:nth-child(2){
-    width: 110px;
-}
-nav a:nth-child(2):hover~.animation{
-    width: 110px;
-    left: 120px;
-}
-nav a:nth-child(3){
-    width: 100px;
-}
-nav a:nth-child(3):hover~.animation{
-    width: 125px;
-    left: 225px;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 
 h1, h3 {
-    text-align: center;
+    text-align: left;
+    margin-top: -30px;
 }
 
-.categorias ul {
-    list-style: none;
-    font-size: 1rem;
-    margin-left: -10px;
+h3 {
+    color: rgb(24, 23, 23);
+    font-weight: lighter;
 }
 
-.categorias{
-    position: absolute;
-    display: inline-block;
-    font-weight: bold;
-    height: 45px;
-    width: 200px;
-    font-size: larger;
-    line-height: 45px;
-    text-align: center;
-    cursor: pointer;
-    color: rgb(14, 13, 13);
-    background-color: #34495e;
-    margin-left: 1050px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.drop {
-    position: absolute;
-    width: 170px;
-    color: #34495e;
-}
-
-.drop li {
-    margin-top: -8px;
-    margin-bottom: 15px;
-    height: 50px;
-    display: none;
-    opacity: 0;
-    background-color: rgb(15, 15, 15);
-    transition: color .3s;
-    margin-left: -30px;
-}
-
-.drop li:hover{
-    color: #4027c1;
-    background: #61d4a8;
-}
-
-.categorias:hover .drop li{
-    display: block;
-    animation: menu1 .5s forwards;
-}
-
-@keyframes animation{
-    from{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-.categorias .drop li:nth-last-child(1){
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-.categorias:hover .drop li:nth-child(2){
-    animation-delay: .2s;
-}
-
-.categorias:hover .drop li:nth-child(3){
-    animation-delay: .4s;
-}
-
-.categorias:hover .drop li:nth-child(4){
-    animation-delay: .6s;
-}
-
-.categorias:hover .drop li:nth-child(5){
-    animation-delay: .8s;
-}
-
-.categorias:hover .drop li{
-    animation: animation .5s forwards;
-}
