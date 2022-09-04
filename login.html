@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript' src="login.js" async></script>
 	<link rel="stylesheet" type="text/css" href="login.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<script type='text/javascript' src="login.js" async></script>
-	<title>Cadastro quizz</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+    
+    <h2>Bem-vindo, faça login para continuar.</h2>
 
+    <img src="https://media1.giphy.com/media/H4hdwzXbnc4axunUzh/200w.gif?cid=82a1493bj0ibg80dkf9eydc33vbskithd67bumnog80mt3ns&rid=200w.gif&ct=s">
 
-  <div class="bg-img">
-    <div class="content">
-      <header>Login</header>
-	  <form action="#">
-        <div class="campo">
-            <span class="fa fa-user"></span>
-			<input type="text" class="user" required placeholder="Usuario"/>
-		</div>
-
-		<div class="campo b">
-			<span class="fa fa-lock"></span>
-			<input type="password" class="senha" required placeholder="Senha"/>
-			<span class="show">mostrar</span>
-		</div>
-
-		<div class="esquecSenha">
-			<a href="#">Esqueceu a senha? Clique aqui</a>
-		</div>
-
-		
-
-		<button class="login">LOGIN</button>
-
-	  </form>
-	</div>
-  </div>
-
-
+    <div id="box">
+        <h1>Login</h1>
+        <span>Usuário</span>
+          <input type="text" id="user"  placeholder="usuário">
+        <span>Senha</span>
+          <input type="password" id="pass" required placeholder="senha">
+          <span class="show">mostrar</span>   
+        <span id="message"></span>
+        <button>LOGIN</button>
+    </div>
+    
 </body>
 </html>
