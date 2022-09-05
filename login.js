@@ -1,11 +1,14 @@
+const loginbtn = document.querySelector(".submit");
+const mensagem = document.querySelector("#message");
+const user = document.querySelector("#user");
+const pass = document.querySelector("#pass");
 
-
-button.addEventListener('click', () => {
-    if ((user.value == 'Thais' && pass == '1234') || (user == 'Laura' && pass == '1234')) {
+loginbtn.addEventListener('click', () => {
+    if ((user.value == 'Thais' && pass.value == '1234') || (user.value == 'Laura' && pass.value == '1234')) {
         window.location.href = "file:///C:/Users/User/Documents/site-pw/inicial.html";
         alert(`${user.value} , seu login foi efetuado com sucesso!`);
     }
     else {
-        document.querySelector('#message').innerHTML = 'Usuário ou senha inválidos';
+        mensagem.innerHTML = 'Usuário ou senha inválidos';
     }
 });

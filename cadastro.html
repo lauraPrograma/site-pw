@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type='text/javascript' src="login.js" async></script>
 	<link rel="stylesheet" type="text/css" href="login.css"/>
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     
-    <h2>Bem-vindo, faça login para continuar.</h2>
+    <h2>Cadastre-se grátis para continuar.</h2>
 
     <img src="https://media1.giphy.com/media/H4hdwzXbnc4axunUzh/200w.gif?cid=82a1493bj0ibg80dkf9eydc33vbskithd67bumnog80mt3ns&rid=200w.gif&ct=s">
 
     <div id="box">
-        <h1>Login</h1>
-        <span>Usuário</span>
-          <input type="text" id="user"  placeholder="usuário">
+        <h1>Cadastro</h1>
+        <span>Nome Completo</span>
+          <input type="text" id="nome"  placeholder="Informe seu nome inteiro">
+        <span>Data de Nascimento</span>
+          <input type="date" id="dataNasc">
+        <span>E-mail</span>
+          <input type="email" id="email" required placeholder="....@gmail.com">
         <span>Senha</span>
-          <input type="password" id="pass" required placeholder="senha">
-          <span class="show">mostrar</span>   
+          <input type="password" id="senha" placeholder="Crie uma senha">
+        <span>Confirme a senha</span>
+          <input type="password" id="confirmaSenha" placeholder="Confirme sua senha">
         <span id="message"></span>
         <button class="submit">LOGIN</button>
     </div>
