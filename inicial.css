@@ -75,7 +75,24 @@
     margin-bottom: 5px;
 }
 
+#back-to-top {
+    margin-bottom: 50px;
+    margin-left: 1250px;
+    border-radius: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(236, 207, 112);
+  }
 
+  #back-to-top:hover {
+    background-color: rgba(5, 2, 39, 0.753);
+  }
+
+  #back-to-top.hidden {
+    display: none;
+  }
 
 #nav4.hidden {
     display: none;
@@ -238,7 +255,7 @@ button:hover {
 
 
 #categ a {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-top: 100px;
     margin-left: auto;
     font-weight: bolder;

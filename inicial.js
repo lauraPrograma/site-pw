@@ -16,6 +16,7 @@ sobre.addEventListener('click', () => {
   document.querySelector("#navbar").classList.add('hidden');
   document.querySelector("#nav2").classList.add('active');
   document.querySelector("#nav4").classList.add('hidden');
+  document.querySelector("#back-to-top").classList.add('hidden');
 
 });
 
@@ -24,6 +25,7 @@ contato.addEventListener('click', () => {
   document.querySelector("#nav2").classList.remove('active');
   document.querySelector("#nav3").classList.add('active');
   document.querySelector("#nav4").classList.add('hidden');
+  document.querySelector("#back-to-top").classList.add('hidden');
 
 });
 
@@ -38,3 +40,11 @@ mostrar.addEventListener('click', () => {
   state++;
 });
 
+
+ var btn = document.querySelector("#back-to-top");
+ btn.addEventListener("click", function() {
+  window.scrollTo({
+        top: 0,
+         behavior: 'smooth'
+  })
+});
