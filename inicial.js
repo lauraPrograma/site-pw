@@ -48,3 +48,12 @@ mostrar.addEventListener('click', () => {
          behavior: 'smooth'
   })
 });
+
+var mostra = document.querySelector("#mostra");
+
+mostra.addEventListener('click', function() {
+  window.scrollTo({
+    top: 600,
+    behavior: 'smooth'
+  })
+});
