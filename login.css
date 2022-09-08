@@ -96,3 +96,16 @@ img {
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
 }
+
+#email.erro, #nome.erro, #senha.erro, #user.erro, #confirma.erro  {
+ border: 2px solid rgb(221, 48, 48);
+}
+
+#email.ok, #nome.ok, #senha.ok, #user.ok, #confirma.ok  {
+    border: 2px solid rgb(25, 168, 56);
+   }
+
+#msgEmail, #msgNome, #msgSenha, #msgUser, #msgConfirma {
+    color: rgb(221, 48, 48);
+}
+

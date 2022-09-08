@@ -19,15 +19,19 @@
         <h1>Cadastro</h1>
         <span>Nome Completo</span>
           <input type="text" id="nome"  placeholder="Informe seu nome inteiro">
-        <span>Data de Nascimento</span>
-          <input type="date" id="dataNasc">
-        <span>E-mail</span>
-          <input type="email" id="email" required placeholder="....@gmail.com">
+          <span id="msgNome"></span>
+          <span>E-mail</span>
+            <input type="email" id="email" placeholder="....@gmail.com">
+            <span id="msgEmail"></span>
+        <span>Usuário</span>
+          <input type="text" id="user" placeholder="Crie um usuário">
+          <span id="msgUser"></span>
         <span>Senha</span>
           <input type="password" id="senha" placeholder="Crie uma senha">
+          <span id="msgSenha"></span>
         <span>Confirme a senha</span>
-          <input type="password" id="confirmaSenha" placeholder="Confirme sua senha">
-        <span id="message"></span>
+          <input type="password" id="confirma" placeholder="Confirme sua senha">
+        <span id="msgConfirma"></span>
         <button class="submit">LOGIN</button>
     </div>
     
